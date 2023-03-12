@@ -73,6 +73,13 @@ a:active {
   padding: 5px;
 }
 
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column3 {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
