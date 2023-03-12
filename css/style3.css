@@ -17,8 +17,8 @@
 .overlay {
     position: relative;
     top: 0.5vw;
-    left: 50%;
-    transform:translate(-50%, -50%);
+    left: 55%;
+    transform:translate(-55%, -50%);
     font-family: 'Merriweather Sans Light';
     font-size: 19vw;
     float: left;
