@@ -8,7 +8,8 @@
 
 .email{
   color: white;
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
   font-size: 5vw;
   position: relative;
   top: 4vh;
@@ -17,7 +18,8 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
 }
 
 
@@ -29,7 +31,8 @@ body {
   top: 5vh;
   left: 50%;
   transform:translate(-50%, -50%);
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
   font-size: 2vw;
   color: #f2f2f2;
   text-align: center;
@@ -44,7 +47,8 @@ text{
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
 }
 
 p{
@@ -56,7 +60,8 @@ p{
 a:link {
   color: white; /* White text color */
   background-color: transparent;
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
   text-decoration: none;  
 }
 
@@ -64,21 +69,24 @@ a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
 }
 
 a:hover {
   color: white;
   background-color: transparent;
   text-decoration: underline;
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
 }
 
 a:active {
   color: white;
   background-color: transparent;
   text-decoration: underline;
-  font-family: 'Merriweather Sans Light';
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
 }
 
  /* Three image containers (use 25% for four, and 50% for two, etc) */
