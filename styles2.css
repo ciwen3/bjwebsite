@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+}
+
+.left-nav {
+  justify-content: flex-start;
+  display: flex;
+  float: left;
+  top: 0; 
+  left: 0;
+  width: 30vw;
+}
+
+.right-nav {
+  justify-content: flex-start;
+  display: flex;
+  float: right;
+  top: 0; 
+  text-align: center;
+  width: 50vw;
+}
+
+.navbar a {
+  color: black;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  font-size: 3.5vw;
+  text-decoration: none;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
+}
+
+.navbar .left-nav:hover {
+  width: 33vw;
+  background: black;
+  color: white;
+}
+
+.navbar a:hover {
+  background: black;
+  color: white;
+}
