@@ -1,57 +1,91 @@
-.container video {
-  height: auto;
-  width: 100vw;
-  position: absolute;
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
   top: 0;
   left: 0;
 }
 
-
- /* The navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+p {
+  top: 10vh;
+  position: relative;
   font-family: 'Times New Roman';
   font-variant: small-caps;
+  font-size: 2.8vh;
 }
 
-/* logo inside the navbar */
-.navbar .logo {
+.email{
+  color: white;
+  font-family: 'Times New Roman';
+  font-size: 5vw;
+  position: relative;
+  top: 4vh;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  position: sticky;
+}
+
+.left-nav {
+  justify-content: flex-start;
+  display: flex;
   float: left;
   top: 0; 
   left: 0;
   width: 30vw;
 }
 
-/* Links inside the navbar */
-.navbar .text {
+.right-nav {
+  justify-content: flex-start;
+  display: flex;
   float: right;
-  display: inline-block;
-  text-decoration: none;
   top: 0; 
-  width: 50vw;
-  font-size: 4vw;
-}
-
-
-/* Links inside the navbar */
-.navbar a {
-  color: #f2f2f2;
   text-align: center;
-  text-decoration: none;
+  width: 50vw;
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
+.navbar a {
   color: black;
+  font-family: 'Times New Roman';
+  font-variant: small-caps;
+  font-size: 3.5vw;
+  text-decoration: none;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
 }
 
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-  display: relative;
-} 
+.navbar .left-nav:hover {
+  width: 33vw;
+  background: black;
+  color: white;
+}
+
+.navbar a:hover {
+  background: black;
+  color: white;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column3 {
+  position: relative;
+  top: 5vh;
+  float: left;
+  width: 30vw;
+  padding: 1vw;
+  background-color: transparent;
+}
