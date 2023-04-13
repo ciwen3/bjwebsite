@@ -80,7 +80,16 @@ video {
   height: auto;
 }
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+  position: relative;
+  top: 5vh;
+  float: left;
+  width: 50%;
+  background-color: transparent;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column3 {
   position: relative;
   top: 5vh;
@@ -89,3 +98,6 @@ video {
   padding: 1vw;
   background-color: transparent;
 }
+
+
+
