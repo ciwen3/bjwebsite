@@ -99,5 +99,13 @@ video {
   background-color: transparent;
 }
 
-
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column4 {
+  position: relative;
+  top: 5vh;
+  float: left;
+  width: 22vw;
+  padding: 1vw;
+  background-color: transparent;
+}
 
