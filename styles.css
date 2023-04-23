@@ -17,7 +17,7 @@ p {
 .email{
   color: white;
   font-family: 'Times New Roman';
-  font-size: 5vw;
+  font-size: 6vw;
   position: relative;
   top: 4vh;
   float: left;
@@ -29,36 +29,48 @@ p {
 .email:link{
   color: white;
   font-family: 'Times New Roman';
-  font-size: 5vw;
+  font-size: 6vw;
   position: relative;
   top: 4vh;
+  float: left;
+  padding: 1vw;
+  background-color: transparent;
   text-align: center;
 }
 
 .email:visited{
   color: white;
   font-family: 'Times New Roman';
-  font-size: 5vw;
+  font-size: 6vw;
   position: relative;
   top: 4vh;
+  float: left;
+  padding: 1vw;
+  background-color: transparent;
   text-align: center;
 }
 
 .email:hover{
   color: white;
   font-family: 'Times New Roman';
-  font-size: 5vw;
+  font-size: 6vw;
   position: relative;
   top: 4vh;
+  float: left;
+  padding: 1vw;
+  background-color: transparent;
   text-align: center;
 }
 
 .email:active{
   color: white;
   font-family: 'Times New Roman';
-  font-size: 5vw;
+  font-size: 6vw;
   position: relative;
   top: 4vh;
+  float: left;
+  padding: 1vw;
+  background-color: transparent;
   text-align: center;
 }
 
@@ -148,3 +160,20 @@ video {
   background-color: transparent;
 }
 
+footer {
+  max-width: 100vw;
+  height: auto;
+  position: relative;
+  left: 33%;
+  bottom: 0;
+  align-content: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column11 {
+  float: left;
+  width: 8vw;
+  max-width: 50px;
+  padding: .3vw;
+  background-color: transparent;
+}
