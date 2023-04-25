@@ -12,17 +12,10 @@ fs.readdir(directoryPath, function (err, files) {
     //listing all files using forEach
     files.forEach(function (file) {
         // Do whatever you want to do with the file
-        // console.log("./projects/" + file); 
-        // <iframe src="./projects/" + file></iframe>;
+        //console.log(file);
         var iframe = document.createElement('iframe');
-
-        // div tag in which iframe will be added should have id attribute with value myDIV
-        document.getElementById("myDIV").appendChild(iframe);
-
-        // provide height and width to it
-        // iframe.setAttribute("style","height:100%;width:100%;");
-        iframe.contentWindow.document.open();
-        iframe.contentWindow.document.write('<iframe src="./projects/" + file></iframe>');
-        iframe.contentWindow.document.close();
+        var html = '<body>Foo</body>';
+        iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
+        console.log('iframe.contentWindow =', iframe.contentWindow);
     });
 });
