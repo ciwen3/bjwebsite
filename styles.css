@@ -221,3 +221,11 @@ iframe {
   width: 100%;
 }
 
+
+.paragraph{
+  color: white;
+  font-family: 'Times New Roman';
+  font-size: 80rem;
+  background-color: transparent;
+  text-align: left;
+}
