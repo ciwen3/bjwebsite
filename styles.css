@@ -16,8 +16,9 @@ h1 {
   position: relative;
   font-family: 'Times New Roman';
   font-variant: small-caps;
-  font-size: 3.5%;
+  font-size: 4%;
 }
+
 
 
 .email{
@@ -201,6 +202,7 @@ iframe {
 
 
 .paragraph{
+  position: relative;
   color: white;
   font-family: 'Times New Roman';
   font-size: 80rem;
