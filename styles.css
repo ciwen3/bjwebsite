@@ -110,22 +110,6 @@ h1 {
   width: 45%;
 }
 
-.navbar a {
-  color: black;
-  font-family: 'Times New Roman';
-  font-variant: small-caps;
-  text-decoration: none;
-  margin-right: 1;
-  margin-left: 1;
-  margin-top: .5;
-  margin-bottom: .5;
-}
-
-.navbar .left-nav:hover {
-  background: black;
-  color: white;
-}
-
 .navbar a:hover {
   background: gray;
   color: white;
