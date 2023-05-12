@@ -103,12 +103,11 @@ h1 {
 
 .right-nav {
   justify-content: flex-start;
-  display: inline-block;
+  display: flex;
   float: right;
   top: 0; 
-  text-align: center;
+  right: 0;
   width: 45%;
-  font-size: 4rem;
 }
 
 .navbar a {
@@ -128,7 +127,7 @@ h1 {
 }
 
 .navbar a:hover {
-  background: black;
+  background: gray;
   color: white;
 }
 
