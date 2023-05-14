@@ -275,7 +275,7 @@ iframe {
   position: relative;
 }
 
-/* Bottom right text */
+/* Center left black box with white text */
 .text-block {
   position: absolute;
   top: 2.5%;
@@ -284,12 +284,14 @@ iframe {
   right: 2.5%;
   background-color: black;
   color: white;
+  font-family: 'Times New Roman';
+  font-size: 1vh;
   padding-left: 20px;
   padding-right: 20px;
 } 
 
 
-/* Bottom right text */
+/* Center left white boarder and controls the size of the text box */
 .text-block2 {
   position: absolute;
   top: 25%;
