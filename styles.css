@@ -278,10 +278,10 @@ iframe {
 /* Bottom right text */
 .text-block {
   position: absolute;
-  top: 5%;
-  bottom: 5%;
-  left: 5%;
-  right: 5%;
+  top: 2.5%;
+  bottom: 2.5%;
+  left: 2.5%;
+  right: 2.5%;
   background-color: black;
   color: white;
   padding-left: 20px;
@@ -292,8 +292,8 @@ iframe {
 /* Bottom right text */
 .text-block2 {
   position: absolute;
-  top: 20%;
-  bottom: 20%;
+  top: 25%;
+  bottom: 25%;
   left: 5%;
   right: 55%;
   background-color: white;
