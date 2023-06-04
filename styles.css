@@ -243,8 +243,8 @@ iframe {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 90vw;
-  max-height: 90vw;
+  max-width: 95vw;
+  max-height: 95vw;
   position: relative;
   margin: auto;
 }
