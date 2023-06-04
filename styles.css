@@ -21,7 +21,9 @@ p1 {
 h33 {
   position: relative;
   font-family: 'Times New Roman';
-  font-size: 3rem;
+  font-variant: small-caps;
+  font-size: 2rem;
+  color: white;
 }
 
 
