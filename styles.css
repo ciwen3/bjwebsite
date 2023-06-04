@@ -277,10 +277,10 @@ iframe {
 /* Center left black box with white text */
 .text-block {
   position: absolute;
-  top: 1.5rem;
-  bottom: 1.5rem;
-  left: 1.5rem;
-  right: 1.5rem;
+  top: 2.5%;
+  bottom: 2.5%;
+  left: 2.5%;
+  right: 2.5%;
   background-color: black;
   color: white;
   font-family: 'Times New Roman';
