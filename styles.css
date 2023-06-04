@@ -293,8 +293,8 @@ iframe {
 /* Center left white boarder and controls the size of the text box */
 .text-block2 {
   position: absolute;
-  top: 25%;
-  bottom: 25%;
+  top: 15%;
+  bottom: 15%;
   left: 5%;
   right: 55%;
   background-color: white;
